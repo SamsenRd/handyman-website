@@ -1,7 +1,6 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    background-color: #eeeeee;
-}
+.main-content {
+    padding-top: 5rem;
+    padding-left: 1rem;
+  }
 
 

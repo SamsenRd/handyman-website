@@ -8,7 +8,7 @@ export default function Hero(){
             <div className={styles.heroContainer}>
                 <img src={heroImage} className={styles.img} alt="hero-img" />
                 <h1 className={styles.heroTitle}>Professional Handyman Services</h1>
-                <button className={styles.heroButton}>Get a Quote!</button>
+                <button className={styles.heroButton}>Let's work together!</button>
             </div>
         </>
     )

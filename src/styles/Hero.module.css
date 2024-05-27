@@ -28,6 +28,11 @@ img{
     padding: 20px 30px;
     font-size: 1.3rem;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.heroButton:hover{
+    background-color:#f6eaab;
 }
 
 @media only screen and (max-width: 1150px) {

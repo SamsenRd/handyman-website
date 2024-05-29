@@ -1,0 +1,27 @@
+.container{
+    margin-top: 3em;
+    background-color: #fad000;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accentTitle{
+    color: black;
+    margin-right: 1em;
+}
+
+.accentButton{
+    border: none;
+    background-color: #eeeeee;
+    padding: 0.8em 1.7em;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.accentButton:hover{
+    background-color: #aeaeae;
+    color: #eeeeee;
+}

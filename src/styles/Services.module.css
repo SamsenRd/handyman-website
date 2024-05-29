@@ -1,18 +1,48 @@
-/* .servicesContainer{
+.servicesHeading{
+    margin-top: 1em;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+}
+
+.servicesContainer{
    display: flex;
    justify-content: center;
    align-items: center;
+   flex-direction: row;
    flex-wrap: wrap;
    overflow-x: hidden;
-   gap: 30px;
-} */
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 3em 1.875rem 1em 1.875rem;
+    width: 25%;
+
+}
 
 .servicesImg{
    width: 200px;
    height: 200px;
    border-radius: 50%;
-
 }
+
+.servicesTitle{
+    margin-top: 1em;
+    color: black;
+}
+
+.servicesParagraph{
+    margin-top: 1em;
+    color: rgb(67, 67, 67);
+}
+
+
 
 @media only screen and (max-width: 1150px) {
     
@@ -21,62 +51,21 @@
 
 
 @media only screen and (max-width: 900px) {
-  
+    .service{
+        width: 40%;
+        margin: 3em 1.875rem 1em 1.875rem;
+    }
 
 }
 
 @media screen  and (max-width: 650px){
-    .servicesContainer{
-        justify-content: space-around;
-        flex-wrap: wrap;
-        overflow-x: hidden;
-        gap: 30px;
-     }
-
     .service{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        flex-wrap: wrap;
-        margin: 3em 1.875rem 0 1.875rem;
         width: 400px;
-
-    }
-    
-    .servicesImg{
-
-    }
-
-    .servicesTitle{
-        
-    }
-
-    .servicesParagraph{
-        
     }
 }
 
+
 @media only screen and (max-width: 450px){
-    .service{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        margin: 3em 1.875rem 0 1.875rem;
-    }
-    
-    .servicesImg{
-        display: block;
-    }
-
-    .servicesTitle{
-        margin-top: 1em;
-        color: black;
-    }
-
-    .servicesParagraph{
-        margin-top: 1em;
-    }
+ 
+   
 }

@@ -1,5 +1,5 @@
 .whoWeAreContainer{
-    background-color: #b7b7b7;
+    background-color: #e6e6e6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@
 }
 
 p{
-    color: white;
+    color: black;
 }
 
 
@@ -35,11 +35,6 @@ p{
 }
 
 @media screen  and (max-width: 650px){
-    
-}
-
-
-@media only screen and (max-width: 450px){
     .whoWeAreContainer{
         flex-direction: column;
         align-items: flex-start;
@@ -50,13 +45,18 @@ p{
     }
 
     .WhoWeAreInfo > h2{
-        color: white;
+        color: black;
         margin-bottom: 1rem;
     }
 
     .WhoWeAreImg{
         width: 100%;
-        height: 300px;
+        height: 400px;
+        position: relative;
+    }
+
+    .WhoWeAreSkills{
+        margin-bottom: 2.5rem;
     }
 
     .WhoWeAreSkillsInfo{
@@ -71,13 +71,50 @@ p{
         margin-left: 1rem;
     }
 
+    .WhoWeAreInfo > p{
+        margin-bottom: 2.5rem;
+    }
+
     .WhoWeAreSkillsImg{
         width: 50px;
         height: 50px;
     }
 
+    .WhoWeAreImg >h2{
+        font-size: 3rem;
+        color: white;
+        position: absolute;
+        top: 30%;
+        margin-left: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .WhoWeAreImg >p{
+        color: white;
+        position: absolute;
+        top: 73%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 450px){
+    .WhoWeAreImg{
+        height: 300px;
+    }
+
     .WhoWeAreSkills > p{
         color: black;
+    }
+
+    .WhoWeAreImg >h2{
+        font-size: 2.5rem;
+        top: 20%;
+    }
+
+    .WhoWeAreImg >p{
+        top: 70%;
     }
    
 }

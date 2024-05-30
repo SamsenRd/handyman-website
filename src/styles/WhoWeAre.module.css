@@ -1,0 +1,83 @@
+.whoWeAreContainer{
+    background-color: #b7b7b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WhoWeAreImg{
+    width: 50%;
+    height: 600px;
+}
+
+
+.handymanMainImg{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    filter: brightness(55%);
+}
+
+p{
+    color: white;
+}
+
+
+@media only screen and (max-width: 1150px) {
+    
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  
+
+}
+
+@media screen  and (max-width: 650px){
+    
+}
+
+
+@media only screen and (max-width: 450px){
+    .whoWeAreContainer{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .WhoWeAreInfo{
+        margin: 1.5rem;
+    }
+
+    .WhoWeAreInfo > h2{
+        color: white;
+        margin-bottom: 1rem;
+    }
+
+    .WhoWeAreImg{
+        width: 100%;
+        height: 300px;
+    }
+
+    .WhoWeAreSkillsInfo{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 0.7rem;
+    }
+
+    .WhoWeAreSkillsInfo > h3{
+        color: black;
+        margin-left: 1rem;
+    }
+
+    .WhoWeAreSkillsImg{
+        width: 50px;
+        height: 50px;
+    }
+
+    .WhoWeAreSkills > p{
+        color: black;
+    }
+   
+}

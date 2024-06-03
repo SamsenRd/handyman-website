@@ -10,9 +10,11 @@ export default function WhoWeAre(){
     return(
         <>
             <div className={styles.whoWeAreContainer}>
-                <div className={styles.WhoWeAreInfo}>
+                <div classname={styles.whoWeAreContainerTitle}>
                     <h2>Who We Are</h2>
                     <p>LeonExpress is a team of fully-trained, proficient, and experienced handymen that provide the complete range of services for home repair, installation, maintenance, and improvement.</p>
+                </div>
+                <div className={styles.WhoWeAreInfo}>
                     <div className={styles.WhoWeAreSkills}>
                         <div className={styles.WhoWeAreSkillsInfo}> 
                             <img src={skilled} className={styles.WhoWeAreSkillsImg} alt="skilled technician icon" />  

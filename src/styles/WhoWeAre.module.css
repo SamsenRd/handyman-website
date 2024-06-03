@@ -38,7 +38,6 @@ p{
     }
 
     .whoWeAreContainerTitle{
-        text-align: left;
         margin: 1.5em;
     }
 
@@ -91,86 +90,43 @@ p{
     }
 
     .WhoWeAreImg >h2{
-        font-size: 3rem;
+        font-size: 4rem;
         color: white;
         position: absolute;
         top: 30%;
-        margin-left: 2rem;
+        margin-left: 1.5rem;
         margin-bottom: 1.5rem;
     }
 
     .WhoWeAreImg >p{
         color: white;
         position: absolute;
-        top: 73%;
-        margin-left: 2rem;
-        margin-right: 2rem;
+        top: 75%;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
     }
 }
 
 @media screen  and (max-width: 650px){
     .whoWeAreContainer{
-        flex-direction: column;
         align-items: flex-start;
     }
 
     .WhoWeAreInfo{
-        margin: 1.5rem;
         display: block;
     }
 
-    .WhoWeAreInfo > h2{
-        color: black;
-        margin-bottom: 1rem;
-    }
-
-    .WhoWeAreImg{
-        width: 100%;
-        height: 400px;
-        position: relative;
-    }
-
     .WhoWeAreSkills{
-        margin-bottom: 2.5rem;
         width: 100%;
-    }
-
-    .WhoWeAreSkillsInfo{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        margin-bottom: 0.7rem;
-    }
-
-    .WhoWeAreSkillsInfo > h3{
-        color: black;
-        margin-left: 1rem;
-    }
-
-    .WhoWeAreInfo > p{
-        margin-bottom: 2.5rem;
-    }
-
-    .WhoWeAreSkillsImg{
-        width: 50px;
-        height: 50px;
     }
 
     .WhoWeAreImg >h2{
         font-size: 3rem;
-        color: white;
-        position: absolute;
         top: 30%;
-        margin-left: 2rem;
-        margin-bottom: 1.5rem;
     }
 
     .WhoWeAreImg >p{
-        color: white;
-        position: absolute;
         top: 73%;
-        margin-left: 2rem;
-        margin-right: 2rem;
     }
 }
 
